@@ -34,14 +34,14 @@ export const projectsData = [
   {
     title: "Rolleston College Film Club",
     description:
-      "I worked with 2 other devs on building a site for Film club so people would know who we are",
+      "I worked with two other developers on building a website for our film club to help people get to know who we are.",
     tags: ["Astro", "Tailwind", "CSS"],
     imageUrl: corpcommentImg,
   },
   {
     title: "HuskyNZ Weather",
     description:
-      "For a school assment I made a small weather app that uses Flask and open weather to be slim and lean. Im looking to do a complete rewrite soon",
+      "For a school assignment, I made a small weather app that uses Flask and OpenWeather to be slim and lean. I'm looking to do a complete rewrite soon.",
     tags: ["Flask","Python","Azure" ],
     imageUrl: rmtdevImg,
   },
@@ -49,7 +49,7 @@ export const projectsData = [
   {
     title: "HuskyNZ's Gen6 website",
     description:
-      "Wile its not in use any more as I have moved to useing free flarum this is one of the first things I coded so its not great and we dont talk about why its gen6",
+      "While I don't use it anymore because I've switched to using Free Flarum, this was one of my first coding projects. It's not that great, and we don't really discuss why it's gen6",
     tags: ["Azure app service","CSS","HTML" ],
     imageUrl: gen6,
   },
