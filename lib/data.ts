@@ -2,9 +2,8 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/Screenshot_20231020_153230.png";
-import rmtdevImg from "@/public/Screenshot_20231020_153931.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import filmsite from "@/public/Screenshot_20231020_153230.png";
+import hunzweather from "@/public/Screenshot_20231020_153931.png";
 import gen6 from "@/public/Screenshot_20231020_185537.png"
 
 export const links = [
@@ -36,14 +35,14 @@ export const projectsData = [
     description:
       "I worked with two other developers on building a website for our film club to help people get to know who we are.",
     tags: ["Astro", "Tailwind", "CSS"],
-    imageUrl: corpcommentImg,
+    imageUrl: filmsite,
   },
   {
     title: "HuskyNZ Weather",
     description:
       "For a school assignment, I made a small weather app that uses Flask and OpenWeather to be slim and lean. I'm looking to do a complete rewrite soon.",
     tags: ["Flask","Python","Azure" ],
-    imageUrl: rmtdevImg,
+    imageUrl: hunzweather,
   },
 
   {
