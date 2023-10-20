@@ -9,7 +9,7 @@
 
 </p>
 
-![Vercel](https://therealsujitk-vercel-badge.vercel.app/?app=rolleston-college-film-club-website) ![Contributors](https://img.shields.io/github/contributors/HuskyNZ/peter-v2?color=dark-green) ![Issues](https://img.shields.io/github/issues/HuskyNZ/peter-v2) ![License](https://img.shields.io/github/license/HuskyNZ/peter-v2)
+![Vercel](https://therealsujitk-vercel-badge.vercel.app/?app=peter-v2) ![Contributors](https://img.shields.io/github/contributors/HuskyNZ/peter-v2?color=dark-green) ![Issues](https://img.shields.io/github/issues/HuskyNZ/peter-v2) ![License](https://img.shields.io/github/license/HuskyNZ/peter-v2)
 
 ## About The Project
 
