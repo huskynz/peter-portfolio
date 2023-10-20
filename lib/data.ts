@@ -61,14 +61,14 @@ export const projectsData = [
   {
     title: "Rolleston College Film Club",
     description:
-      "I worked with 2 other devs on building a site for Film club so pepole would know who we are",
+      "I worked with 2 other devs on building a site for Film club so people would know who we are",
     tags: ["Astro", "Tailwind", "CSS"],
     imageUrl: corpcommentImg,
   },
   {
     title: "HuskyNZ Weather",
     description:
-      "For a school assment I made a small weather app that uses Flask and open weather to be slim and lean. Im looking to do a complet rewrite soon",
+      "For a school assment I made a small weather app that uses Flask and open weather to be slim and lean. Im looking to do a complete rewrite soon",
     tags: ["Flask","Python","Azure" ],
     imageUrl: rmtdevImg,
   },
