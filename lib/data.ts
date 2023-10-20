@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/Screenshot_20231020_153230.png";
 import rmtdevImg from "@/public/Screenshot_20231020_153931.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import gen6 from "@/public/Screenshot_20231020_185537.png"
 
 export const links = [
   {
@@ -29,34 +30,6 @@ export const links = [
     hash: "#contact",
   },
 ] as const;
-
-export const experiencesData = [
-  {
-    title: "My first website",
-    location: "Html",
-    description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "Late 2020",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
-  },
-] as const;
-
 export const projectsData = [
   {
     title: "Rolleston College Film Club",
@@ -71,6 +44,14 @@ export const projectsData = [
       "For a school assment I made a small weather app that uses Flask and open weather to be slim and lean. Im looking to do a complete rewrite soon",
     tags: ["Flask","Python","Azure" ],
     imageUrl: rmtdevImg,
+  },
+
+  {
+    title: "HuskyNZ's Gen6 website",
+    description:
+      "Wile its not in use any more as I have moved to useing free flarum this is one of the first things I coded so its not great and we dont talk about why its gen6",
+    tags: ["Azure app service","CSS","HTML" ],
+    imageUrl: gen6,
   },
 
 ] as const;
