@@ -18,7 +18,7 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
-     <p>Welcome, I'm Peter. I have been working in Azure and AWS as well as Microsoft 365 for the last 3 years I have been honing my skills. I have gained 2 Microsoft Certifications the <a class="underline" href="https://learn.microsoft.com/api/credentials/share/en-us/peter-gallwas/868D21A0115A6F3B?sharingId=ABDCE9AB036FFAC5">AZ-900</a> and the <a class="underline" href="https://learn.microsoft.com/api/credentials/share/en-us/peter-gallwas/EF14C73EB99F9662?sharingId=ABDCE9AB036FFAC5">MS-900</a> I'm still learning and this year I have been expanding into full stack development and film</p>
+     <p>Welcome, I'm Peter. I have been working in Azure and AWS as well as Microsoft 365 for the last 3 years I have been honing my skills. I have gained 2 Microsoft Certifications the <a classname="underline" href="https://learn.microsoft.com/api/credentials/share/en-us/peter-gallwas/868D21A0115A6F3B?sharingId=ABDCE9AB036FFAC5">AZ-900</a> and the <a classname="underline" href="https://learn.microsoft.com/api/credentials/share/en-us/peter-gallwas/EF14C73EB99F9662?sharingId=ABDCE9AB036FFAC5">MS-900</a> I'm still learning and this year I have been expanding into full stack development and film</p>
     </motion.section>
   );
 }
