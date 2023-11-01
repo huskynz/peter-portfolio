@@ -32,7 +32,7 @@ export default function Intro() {
           >
             <Image
               src="https://serv.husky.nz/rollestoncollege/DSC_0321.JPG"
-              alt="Peter Gallwas"
+              alt="Peter Gallwas Looking very very consernd"
               width="192"
               height="192"
               quality="95"

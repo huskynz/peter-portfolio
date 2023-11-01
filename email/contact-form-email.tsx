@@ -24,7 +24,7 @@ export default function ContactFormEmail({
   return (
     <Html>
       <Head />
-      <Preview>New message from your portfolio site</Preview>
+      <Preview>New message from peter.husky.nz</Preview>
       <Tailwind>
         <Body className="bg-gray-100 text-black">
           <Container>
@@ -35,6 +35,7 @@ export default function ContactFormEmail({
               <Text>{message}</Text>
               <Hr />
               <Text>The sender's email is: {senderEmail}</Text>
+              <Text>Please reply promtley</Text>
             </Section>
           </Container>
         </Body>
