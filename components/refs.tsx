@@ -36,6 +36,7 @@ export default function About() {
     "The Guy" He is the IT administrator at Rolleston College, I have done almost a full year of work experience with him..
     </p>
     <h5 className="mb-2 text-1xl font-bold tracking-tight text-gray-900 dark:text-white">Contact Details </h5>
+    <p>hamish.payne@rollestoncollege.nz</p>
     <p>+64 3 595 2490, Ext. 4015</p>
   </div>
 </div>
