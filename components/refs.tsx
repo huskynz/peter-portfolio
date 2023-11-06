@@ -33,7 +33,7 @@ export default function About() {
 
     </a>
     <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-    "The Guy" He is the IT administrator at Rolleston College, I have done almost a full year of work experience with him.
+    "The Guy" He is the IT administrator at Rolleston College, I have done almost a full year of work experience with him..
     </p>
     <h5 className="mb-2 text-1xl font-bold tracking-tight text-gray-900 dark:text-white">Contact Details </h5>
     <p>+64 3 595 2490, Ext. 4015</p>
@@ -41,20 +41,20 @@ export default function About() {
 </div>
 <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
   <a href="#">
-    <img className="rounded-t-lg" src="/pyn.jpg" alt="" />
+    <img className="rounded-t-lg" src="/029d63e5-0681-48fc-a122-f94f3cf8c23c_wo.jpg" alt="" />
   </a>
   <div className="p-5">
     <a href="#">
       <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-        Hamish Payne
+        Sophie Ralph
       </h5>
 
     </a>
     <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-    The Guy
+    Associate Principal
     </p>
     <h5 className="mb-2 text-1xl font-bold tracking-tight text-gray-900 dark:text-white">Contact Details </h5>
-    <p>+64 3 595 2490, Ext. 4015</p>
+    <p>+64 3 595 2490</p>
   </div>
 </div>
 </div>
