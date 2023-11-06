@@ -5,6 +5,8 @@ import { LuGraduationCap } from "react-icons/lu";
 import filmsite from "@/public/Screenshot_20231020_153230.png";
 import hunzweather from "@/public/Screenshot_20231020_153931.png";
 import gen6 from "@/public/Screenshot_20231020_185537.png"
+import yoobe from "@/public/yoobe.png";
+import indeph from "@/public/200813-0073.webp";
 
 export const links = [
   {
@@ -23,7 +25,10 @@ export const links = [
     name: "Skills",
     hash: "#skills",
   },
-
+  {
+    name: "References",
+    hash: "#References",
+  },
   {
     name: "Contact",
     hash: "#contact",
@@ -41,7 +46,7 @@ export const projectsData = [
     title: "HuskyNZ Weather",
     description:
       "For a school assignment, I made a small weather app that uses Flask and OpenWeather to be slim and lean. I'm looking to do a complete rewrite soon.",
-    tags: ["Flask","Python","Azure" ],
+    tags: ["Flask", "Python", "Azure"],
     imageUrl: hunzweather,
   },
 
@@ -49,13 +54,27 @@ export const projectsData = [
     title: "HuskyNZ's Gen6 website",
     description:
       "While I don't use it anymore because I've switched to using Free Flarum, this was one of my first coding projects. It's not that great, and we don't really discuss why it's gen6",
-    tags: ["Azure app service","CSS","HTML" ],
+    tags: ["Azure app service", "CSS", "HTML"],
     imageUrl: gen6,
   },
-
+  {
+    title: "Yoobee Cyber Security Micro-credential",
+    description: "I learnt alot from this course.",
+    tags: ["Basic compute", "Kail Linux"],
+    imageUrl: yoobe,
+  },
+  {
+    title: "Work Experince at Inde",
+    description:
+      "I did 5 weeks of work experince with Inde, every week I was with a diffrent team learning all aspects of the business",
+    tags: ["Azure", "Microsoft"],
+    imageUrl: indeph,
+  },
 ] as const;
 
 export const skillsData = [
+  "Problem Solveing",
+  "Quick Thinker",
   "Azure",
   "Microsoft 365",
   "AWS",
