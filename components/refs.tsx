@@ -55,6 +55,7 @@ export default function About() {
     Associate Principal
     </p>
     <h5 className="mb-2 text-1xl font-bold tracking-tight text-gray-900 dark:text-white">Contact Details </h5>
+    <p>sophie.ralph@rollestoncollege.nz</p>
     <p>+64 3 595 2490</p>
   </div>
 </div>
