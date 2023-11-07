@@ -52,7 +52,7 @@ export default function About() {
 
     </a>
     <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-    Procurement Director
+    Procurement Director at Inde
     </p>
     <h5 className="mb-2 text-1xl font-bold tracking-tight text-gray-900 dark:text-white">Contact Details </h5>
     <p>mark.graham@inde.nz</p>
