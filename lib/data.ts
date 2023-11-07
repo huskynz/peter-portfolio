@@ -29,6 +29,7 @@ export const links = [
     name: "References",
     hash: "#References",
   },
+
   {
     name: "Contact",
     hash: "#contact",
@@ -39,14 +40,14 @@ export const projectsData = [
     title: "Rolleston College Film Club",
     description:
       "I worked with two other developers on building a website for our film club to help people get to know who we are.",
-    tags: ["Astro", "Tailwind", "CSS"],
+    tags: ["Year 2023", "Astro", "Tailwind", "CSS"],
     imageUrl: filmsite,
   },
   {
     title: "HuskyNZ Weather",
     description:
       "For a school assignment, I made a small weather app that uses Flask and OpenWeather to be slim and lean. I'm looking to do a complete rewrite soon.",
-    tags: ["Flask", "Python", "Azure"],
+    tags: ["Year 2023", "Flask", "Python", "Azure"],
     imageUrl: hunzweather,
   },
 
@@ -54,27 +55,25 @@ export const projectsData = [
     title: "HuskyNZ's Gen6 website",
     description:
       "While I don't use it anymore because I've switched to using Free Flarum, this was one of my first coding projects. It's not that great, and we don't really discuss why it's gen6",
-    tags: ["Azure app service", "CSS", "HTML"],
+    tags: ["Year 2022-2023", "Azure app service", "CSS", "HTML"],
     imageUrl: gen6,
   },
   {
     title: "Yoobee Cyber Security Micro-credential",
     description: "I learnt alot from this course.",
-    tags: ["Basic compute", "Kail Linux"],
+    tags: ["Year 2023", "Basic compute", "Kail Linux"],
     imageUrl: yoobe,
   },
   {
     title: "Work Experince at Inde",
     description:
       "I did 5 weeks of work experince with Inde, every week I was with a diffrent team learning all aspects of the business",
-    tags: ["Azure", "Microsoft"],
+    tags: ["Year 2023", "Azure", "Microsoft"],
     imageUrl: indeph,
   },
 ] as const;
 
 export const skillsData = [
-  "Problem Solveing",
-  "Quick Thinker",
   "Azure",
   "Microsoft 365",
   "AWS",
