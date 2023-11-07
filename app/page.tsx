@@ -18,7 +18,7 @@ export default function Home() {
       <Skills />
       <Pskills />
       <Refs />
-      <Live />
+    
 
       <Contact />
     </main>

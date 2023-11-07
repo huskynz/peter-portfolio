@@ -42,21 +42,21 @@ export default function About() {
 </div>
 <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
   <a href="#">
-    <img className="rounded-t-lg" src="/029d63e5-0681-48fc-a122-f94f3cf8c23c_wo.jpg" alt="" />
+    <img className="rounded-t-lg " src="/230303-s-97978.webp" alt=""/>
   </a>
   <div className="p-5">
     <a href="#">
       <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-        Sophie Ralph
+        Preston Gallwas
       </h5>
 
     </a>
     <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-    Associate Principal
+    Workspace Director at Inde
     </p>
     <h5 className="mb-2 text-1xl font-bold tracking-tight text-gray-900 dark:text-white">Contact Details </h5>
-    <p>sophie.ralph@rollestoncollege.nz</p>
-    <p>+64 3 595 2490</p>
+    <p>preston.gallwas@inde.nz</p>
+    <p></p>
   </div>
 </div>
 </div>

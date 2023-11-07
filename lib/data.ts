@@ -90,9 +90,9 @@ export const skillsData = [
 ] as const;
 
 export const pskillsData = [
-  "Quick",
   "Good Problem Solving",
   "Efficient",
   "Positive Attitude",
   "Solid Work Ethic",
+  "Willing to learn",
 ] as const;
