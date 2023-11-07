@@ -42,23 +42,24 @@ export default function About() {
 </div>
 <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
   <a href="#">
-    <img className="rounded-t-lg " src="/230303-s-97978.webp" alt=""/>
+    <img className="rounded-t-lg " src="/1666158881232.jpeg" alt=""/>
   </a>
   <div className="p-5">
     <a href="#">
       <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-        Preston Gallwas
+        Mark Graham
       </h5>
 
     </a>
     <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-    Workspace Director at Inde
+    Procurement Director
     </p>
     <h5 className="mb-2 text-1xl font-bold tracking-tight text-gray-900 dark:text-white">Contact Details </h5>
-    <p>preston.gallwas@inde.nz</p>
-    <p></p>
+    <p>mark.graham@inde.nz</p>
+    <p>+64 021 897 261</p>
   </div>
 </div>
+
 </div>
 
     </motion.section>
