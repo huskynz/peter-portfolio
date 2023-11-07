@@ -7,6 +7,7 @@ import hunzweather from "@/public/Screenshot_20231020_153931.png";
 import gen6 from "@/public/Screenshot_20231020_185537.png"
 import yoobe from "@/public/yoobe.png";
 import indeph from "@/public/200813-0073.webp";
+import ddo from "@/public/Screenshot_20231108_101413.png"
 
 export const links = [
   {
@@ -70,6 +71,13 @@ export const projectsData = [
       "I did 5 weeks of work experince with Inde, every week I was with a diffrent team learning all aspects of the business",
     tags: ["Year 2023", "Azure", "Microsoft"],
     imageUrl: indeph,
+  },
+  {
+    title: "Develop a digital media outcome",
+    description:
+      "This is one of the best pices of work I have done in Year 11, You can take a look at https://hnz.li/qbh",
+    tags: ["Year 2023", "Web Flow"],
+    imageUrl: ddo,
   },
 ] as const;
 
