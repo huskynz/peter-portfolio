@@ -88,3 +88,11 @@ export const skillsData = [
   "Tailwind",
   "Astro",
 ] as const;
+
+export const pskillsData = [
+  "Quick",
+  "Good Problem Solving",
+  "Efficient",
+  "Positive Attitude",
+  "Solid Work Ethic",
+] as const;
