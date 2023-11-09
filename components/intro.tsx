@@ -9,6 +9,8 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import {AiFillYoutube} from "react-icons/ai"
+import {BsTiktok} from "react-icons/bs"
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -112,6 +114,18 @@ export default function Intro() {
         >
           <FaGithubSquare />
         </a>
+        <a
+         className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+         href="https://youtube.com/@huskynz"
+         target="_blank"
+
+        >
+
+        <AiFillYoutube />
+
+        </a>
+
+
       </motion.div>
     </section>
   );
