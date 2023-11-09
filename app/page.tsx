@@ -6,6 +6,8 @@ import SectionDivider from "@/components/section-divider";
 import Skills from "@/components/skills";
 import Refs from "@/components/refs";
 import Pskills  from "@/components/persskills";
+import tpying from "@/components/type"
+import TypingEffect from "@/components/type";
 
 export default function Home() {
   return (

@@ -6,6 +6,10 @@ const nextConfig = {
         protocol: "https",
         hostname: "serv.husky.nz",
       },
+       {
+        protocol: "https",
+        hostname: "serv.hnz.li",
+      },
     ],
   },
   experimental: {
