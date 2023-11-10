@@ -42,6 +42,7 @@ export const projectsData = [
     description:
       "I worked with two other developers on building a website for our film club to help people get to know who we are.",
     tags: ["Year 2023", "Astro", "Tailwind", "CSS"],
+    link: "https://filmclub.tech",
     imageUrl: filmsite,
   },
   {
@@ -49,6 +50,7 @@ export const projectsData = [
     description:
       "For a school assignment, I made a small weather app that uses Flask and OpenWeather to be slim and lean. I'm looking to do a complete rewrite soon.",
     tags: ["Year 2023", "Flask", "Python", "Azure"],
+    link: "https://landing.husky.nz",
     imageUrl: hunzweather,
   },
 
@@ -56,13 +58,15 @@ export const projectsData = [
     title: "HuskyNZ's Gen6 website",
     description:
       "While I don't use it anymore because I've switched to using Free Flarum, this was one of my first coding projects. It's not that great, and we don't really discuss why it's gen6",
-    tags: ["Year 2022-2023", "Azure app service", "CSS", "HTML"],
+    tags: ["Year 2022-2023", "Azure app service"],
+    link: "https://landing.husky.nz",
     imageUrl: gen6,
   },
   {
     title: "Yoobee Cyber Security Micro-credential",
-    description: "I learnt alot from this course.",
+    description: "I learnt a lot from this course.",
     tags: ["Year 2023", "Basic compute", "Kail Linux"],
+    link: "https://landing.husky.nz",
     imageUrl: yoobe,
   },
   {
@@ -70,13 +74,15 @@ export const projectsData = [
     description:
       "I did 5 weeks of work experince with Inde, every week I was with a diffrent team learning all aspects of the business",
     tags: ["Year 2023", "Azure", "Microsoft"],
+    link: "https://landing.husky.nz",
     imageUrl: indeph,
   },
   {
     title: "Develop a digital media outcome",
     description:
-      "This is one of the best pices of work I have done in Year 11, You can take a look at https://hnz.li/qbh",
+      "This is one of the best pices of work I have done in Year 11.",
     tags: ["Year 2023", "Web Flow"],
+    link: "https://hnz.li/qbh",
     imageUrl: ddo,
   },
 ] as const;

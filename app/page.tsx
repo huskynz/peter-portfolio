@@ -7,6 +7,7 @@ import Skills from "@/components/skills";
 import Refs from "@/components/refs";
 import Pskills  from "@/components/persskills";
 
+
 export default function Home() {
   return (
     <main className="flex flex-col items-center px-4">
@@ -17,7 +18,7 @@ export default function Home() {
       <Skills />
       <Pskills />
       <Refs />
-    
+
 
       <Contact />
     </main>
