@@ -10,7 +10,7 @@ import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import {AiFillYoutube} from "react-icons/ai"
-import {BsTiktok} from "react-icons/bs"
+
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -66,7 +66,7 @@ export default function Intro() {
       >
         <span className="font-bold">Hi, I'm Peter</span> a{" "}
         <span className="font-bold">Jr. Cloud Architect and Microsoft 365 Admin</span> with{" "}
-        <span className="font-bold">3 years of hand on learning.</span>
+        <span className="font-bold">3 years of hands on learning.</span>
       </motion.h1>
 
 

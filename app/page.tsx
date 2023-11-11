@@ -7,6 +7,7 @@ import Skills from "@/components/skills";
 import Refs from "@/components/refs";
 import Pskills  from "@/components/persskills";
 import Youtube from "@/components/yt";
+import Banner from "@/components/tmp-bannner";
 
 export default function Home() {
   return (
@@ -19,7 +20,6 @@ export default function Home() {
       <Skills />
       <Pskills />
       <Refs />
-
 
       <Contact />
     </main>
