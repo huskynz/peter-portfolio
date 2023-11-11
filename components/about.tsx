@@ -18,7 +18,7 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
-     <p>Welcome, I'm Peter. I have been working in Azure and AWS as well as Microsoft 365 for the last 3 years I have been honing my skills. I have gained 2 Microsoft Certifications the <a className="underline" href="https://learn.microsoft.com/api/credentials/share/en-us/peter-gallwas/868D21A0115A6F3B?sharingId=ABDCE9AB036FFAC5">AZ-900</a> and the <a className="underline" href="https://learn.microsoft.com/api/credentials/share/en-us/peter-gallwas/EF14C73EB99F9662?sharingId=ABDCE9AB036FFAC5">MS-900</a> I'm still learning and this year I have been expanding into full stack development and film. I aspire to one day be a Full cloud Engineer and Architect, I also enjoy making websites like this one and learning the things I need to get more Microsoft Certs.</p>
+     <p>Greetings! My name is Peter. Over the past three years, I’ve been refining my skills in Azure, AWS, and Microsoft 365. During this time, I’ve earned two Microsoft Certifications: the AZ-900 and the MS-900. My learning journey continues, and this year, I’ve ventured into full-stack development and film. My ambition is to become a full-fledged Cloud Engineer and Architect. In my spare time, I take pleasure in creating websites like this one and acquiring the knowledge necessary to earn more Microsoft Certifications. I’m excited about what the future holds!</p>
     </motion.section>
   );
 }

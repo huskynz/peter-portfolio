@@ -6,7 +6,7 @@ import SectionDivider from "@/components/section-divider";
 import Skills from "@/components/skills";
 import Refs from "@/components/refs";
 import Pskills  from "@/components/persskills";
-
+import Youtube from "@/components/yt";
 
 export default function Home() {
   return (
@@ -15,6 +15,7 @@ export default function Home() {
       <SectionDivider />
       <About />
       <Projects />
+      <Youtube />
       <Skills />
       <Pskills />
       <Refs />
