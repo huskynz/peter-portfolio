@@ -8,6 +8,7 @@ import Refs from "@/components/refs";
 import Pskills  from "@/components/persskills";
 import Youtube from "@/components/yt";
 import Certs from "@/components/certs";
+
 export default function Home() {
   return (
     <main className="flex flex-col items-center px-4">
@@ -20,7 +21,6 @@ export default function Home() {
       <Skills />
       <Pskills />
       <Refs />
-
 
       <Contact />
     </main>
