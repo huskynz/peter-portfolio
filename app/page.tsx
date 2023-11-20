@@ -7,7 +7,7 @@ import Skills from "@/components/skills";
 import Refs from "@/components/refs";
 import Pskills  from "@/components/persskills";
 import Youtube from "@/components/yt";
-import Banner from "@/components/tmp-bannner";
+import Certs from "@/components/certs";
 
 export default function Home() {
   return (
@@ -15,6 +15,7 @@ export default function Home() {
       <Intro />
       <SectionDivider />
       <About />
+      <Certs />
       <Projects />
       <Youtube />
       <Skills />
