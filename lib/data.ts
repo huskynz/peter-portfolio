@@ -82,7 +82,7 @@ export const projectsData = [
     description:
       "This is one of the best pices of work I have done in Year 11.",
     tags: ["Year 2023", "Web Flow"],
-    link: "https://hnz.li/qbh",
+    link: "https://huskynz-my.sharepoint.com/:w:/g/personal/peter_husky_nz/EZbs4uc5tRhKvlEcg0QsVQoBjYfiTc0paqqb1F451mHzDw?e=vmRii7",
     imageUrl: ddo,
   },
 ] as const;
