@@ -90,6 +90,7 @@ export const projectsData = [
 export const skillsData = [
   "Azure",
   "Microsoft 365",
+  "Intune",
   "AWS",
   "Vercel",
   "HTML",
