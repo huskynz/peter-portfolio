@@ -25,7 +25,7 @@ export default function Youtube() {
     <div className="grid grid-cols-2 space-x-1">
     <Video src="https://www.youtube.com/embed/NSNoX-BMakE" />
 
-    <Video src="https://www.youtube.com/embed/DMiHlwkI9R8" />
+    <Video src="https://www.youtube.com/embed/DK7c-IuGLDI" />
     </div>
 
     </motion.section>

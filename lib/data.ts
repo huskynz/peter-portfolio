@@ -8,7 +8,7 @@ import gen6 from "@/public/Screenshot_20231020_185537.png"
 import yoobe from "@/public/yoobe.png";
 import indeph from "@/public/200813-0073.webp";
 import ddo from "@/public/Screenshot_20231108_101413.png"
-
+import Spectrum from "@/public/Spectrum-website.png";
 export const links = [
   {
     name: "Home",
@@ -38,6 +38,38 @@ export const links = [
 ] as const;
 export const projectsData = [
   {
+    title: "Work Experince at Inde",
+    description:
+      "I did 5 weeks of work experince with Inde, every week I was with a diffrent team learning all aspects of the business",
+    tags: ["Year 2023", "Azure", "Microsoft"],
+    link: "https://inde.nz",
+    imageUrl: indeph,
+  },
+  {
+    title: "Develop a digital media outcome",
+    description:
+      "This is one of the best pices of work I have done in Year 11.",
+    tags: ["Year 2023", "Web Flow"],
+    link: "https://huskynz-my.sharepoint.com/:w:/g/personal/peter_husky_nz/EZbs4uc5tRhKvlEcg0QsVQoBjYfiTc0paqqb1F451mHzDw?e=vmRii7",
+    imageUrl: ddo,
+  },
+  {
+    title: "Spectrum's Website",
+    description:
+      "This is a very fun project to watch grow and I had the fun task of building the Website and running it on cloudflare.",
+    tags: ["Astro", "JSX", "Cloudflare"],
+    link: "https://spectrum.liamsherwin.tech",
+    imageUrl: Spectrum,
+  },
+
+  {
+    title: "Yoobee Cyber Security Micro-credential",
+    description: "I learnt a lot from this course.",
+    tags: ["Year 2023", "Basic compute", "Kail Linux"],
+    link: "https://landing.husky.nz",
+    imageUrl: yoobe,
+  },
+  {
     title: "Rolleston College Film Club",
     description:
       "I worked with two other developers on building a website for our film club to help people get to know who we are.",
@@ -62,35 +94,13 @@ export const projectsData = [
     link: "https://landing.husky.nz",
     imageUrl: gen6,
   },
-  {
-    title: "Yoobee Cyber Security Micro-credential",
-    description: "I learnt a lot from this course.",
-    tags: ["Year 2023", "Basic compute", "Kail Linux"],
-    link: "https://landing.husky.nz",
-    imageUrl: yoobe,
-  },
-  {
-    title: "Work Experince at Inde",
-    description:
-      "I did 5 weeks of work experince with Inde, every week I was with a diffrent team learning all aspects of the business",
-    tags: ["Year 2023", "Azure", "Microsoft"],
-    link: "https://landing.husky.nz",
-    imageUrl: indeph,
-  },
-  {
-    title: "Develop a digital media outcome",
-    description:
-      "This is one of the best pices of work I have done in Year 11.",
-    tags: ["Year 2023", "Web Flow"],
-    link: "https://huskynz-my.sharepoint.com/:w:/g/personal/peter_husky_nz/EZbs4uc5tRhKvlEcg0QsVQoBjYfiTc0paqqb1F451mHzDw?e=vmRii7",
-    imageUrl: ddo,
-  },
 ] as const;
 
 export const skillsData = [
   "Azure",
   "Microsoft 365",
   "Intune",
+  "Windows Autopilot",
   "AWS",
   "Vercel",
   "HTML",
