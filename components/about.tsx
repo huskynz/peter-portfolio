@@ -18,7 +18,10 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
-     <p>Hi! My name is Peter. For the last 3 years I have been working with Azure, AWS, Intune,Windows 7,8.1,10,11 and Windows Server 2012R2,2016,2019,2022,AD,AAD,Hybrid Enviromet (AAD sync), and Microsoft 365. During this time, I’ve earned two Microsoft Certifications: the AZ-900 and the MS-900. My learning journey continues, and this year, I’ve ventured into full-stack development and film. In my spare time, I create websites like this one and study to earn more Certifications. I’m excited about what the future holds!</p>
+     <p>Hey there! I’m Peter.(Or HuskyNZ) Over the past three years, I’ve been diving deep in the tech world, Learning, Experimenting, and Administering. Azure, AWS, Intune, Cloudflare, Windows 7 through 11, and a spectrum of Windows Server editions from 2012R2 to 2022. I’ve worked with AD, AAD, Hybrid Environments (AAD sync), and Microsoft 365. Gotten a couple of Microsoft Certifications along the way—AZ-900 and MS-900. I also have learned a lot about Administrating and using Linux distros.
+But guess what? Learning’s an ongoing adventure! This year, I’ve taken a leap into full-stack development and even dipped my toes into the world of film.
+When I’m not deep in tech or the creative work, I’m crafting websites like the one you’re seeing and adding more certifications to my arsenal. The future? Oh, it's a world of possibilities that has me full of excitement!
+</p>
     </motion.section>
   );
 }
