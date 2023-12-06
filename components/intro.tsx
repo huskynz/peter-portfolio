@@ -95,7 +95,7 @@ export default function Intro() {
           href="https://www.husky.nz"
           target="_blank"
         >
-          Visit my forum{" "}
+          Viset my forum{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </a>
 
