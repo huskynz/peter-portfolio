@@ -97,21 +97,25 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "Azure",
-  "Microsoft 365",
-  "Intune",
-  "Windows Autopilot",
-  "AWS",
-  "Vercel",
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Astro",
+"Azure",
+"AWS",
+"Microsoft 365",
+"Cloudflare",
+"Cloud Networking",
+"Databases",
+"Terrafom",
+"PowerShell",
+"NextJS",
+"ReactJS",
+"TailwindCSS",
+"Adobe Permiere Pro and Photoshop",
+] as const;
+
+export const osdata = [
+  "Linux Servers",
+  "Linux Clients",
+  "Windows Server",
+  "Windows Clients",
 ] as const;
 
 export const pskillsData = [
