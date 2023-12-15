@@ -54,7 +54,7 @@ export default function Intro() {
               duration: 0.7,
             }}
           >
-            👋
+
           </motion.span>
         </div>
       </div>
@@ -86,7 +86,7 @@ export default function Intro() {
             setTimeOfLastClick(Date.now());
           }}
         >
-          Contact me here{" "}
+          Contact me{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
@@ -95,7 +95,7 @@ export default function Intro() {
           href="https://www.husky.nz"
           target="_blank"
         >
-          Viset my forum{" "}
+          My forum{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </a>
 
