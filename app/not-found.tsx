@@ -5,7 +5,7 @@ function NotFoundPage() {
 	return (
         <div className="text-center">
         <div className="flex justify-center items-center">
-        <img  src="https://serv.husky.nz/logo/default.png"  width={150} height={150} alt="HuskyNZ Logo" />
+        <img  src="https://serv.husky.nz/logo/HuskyNZRounded.png"  width={150} height={150} alt="HuskyNZ Logo" />
         </div>
         <br />
         <h1 className=" text-9xl">404</h1>
