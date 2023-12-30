@@ -10,6 +10,7 @@ import Refs from '@/components/refs';
 import Pskills from '@/components/persskills';
 import Certs from '@/components/certs';
 import Pos from '@/components/os';
+import UserAgentDisplay from '@/components/UserAgentDisplay'
 
 const Home = () => {
   const [isMobile, setIsMobile] = useState(true); // Default to mobile view initially
@@ -37,6 +38,7 @@ const Home = () => {
             <Intro />
             <SectionDivider />
             <About />
+            <UserAgentDisplay />
             <Certs />
             <Projects />
             <Skills />

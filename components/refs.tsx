@@ -23,7 +23,7 @@ export default function About() {
 
       <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
   <a href="#">
-    <img className="rounded-t-lg" src="/pyn.jpg" alt="" />
+            <img className="rounded-t-lg" src="https://serv.hnz.li/peter-port/pyn.jpg" alt="" />
   </a>
   <div className="p-5">
     <a href="#">
@@ -42,7 +42,7 @@ export default function About() {
 </div>
 <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
   <a href="#">
-    <img className="rounded-t-lg " src="/1666158881232.jpeg" alt=""/>
+            <img className="rounded-t-lg " src="https://serv.hnz.li/peter-port/1666158881232.jpeg" alt=""/>
   </a>
   <div className="p-5">
     <a href="#">

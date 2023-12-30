@@ -2,13 +2,17 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import filmsite from "@/public/Screenshot_20231020_153230.png";
-import hunzweather from "@/public/Screenshot_20231020_153931.png";
-import gen6 from "@/public/Screenshot_20231020_185537.png"
-import yoobe from "@/public/yoobe.png";
-import indeph from "@/public/200813-0073.webp";
-import ddo from "@/public/Screenshot_20231108_101413.png"
-import Spectrum from "@/public/Spectrum-website.png";
+
+
+
+const filmsite = 'https://serv.husky.nz/peter-port/Screenshot_20231020_153230.png';
+const hunzweather = 'https://serv.husky.nz/peter-port/Screenshot_20231020_153931.png';
+const gen6 = 'https://serv.husky.nz/peter-port/Screenshot_20231020_185537.png';
+const yoobe = 'https://serv.husky.nz/peter-port/yoobe.png';
+const indeph  = 'https://serv.husky.nz/peter-port/200813-0073.webp';
+const ddo = 'https://serv.husky.nz/peter-port/200813-0073.webp';
+const Spectrum = 'https://serv.husky.nz/peter-port/Spectrum-website.png';
+
 export const links = [
   {
     name: "Home",
