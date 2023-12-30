@@ -32,9 +32,7 @@ function NotFoundPage() {
         </div>
         <p className="text-3xl">Cloudflare powers most of the sites that I build</p>
         <br />
-        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-             Button
-        </button>
+       
 
         <br></br>
         <br></br>
