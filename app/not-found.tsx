@@ -5,7 +5,7 @@ function NotFoundPage() {
 	return (
         <div className="text-center">
         <div className="flex justify-center items-center">
-        <img  src="https://serv.husky.nz/logo/HuskyNZRounded.png"  width={150} height={150} alt="HuskyNZ Logo" />
+                <img src="https://serv.husky.nz/logo/HuskyNZRounded.png"  width={150} height={150} alt="HuskyNZ Logo" />
         </div>
         <br />
         <h1 className=" text-9xl">404</h1>
@@ -32,6 +32,9 @@ function NotFoundPage() {
         </div>
         <p className="text-3xl">Cloudflare powers most of the sites that I build</p>
         <br />
+        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+             Button
+        </button>
 
         <br></br>
         <br></br>
