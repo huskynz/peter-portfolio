@@ -10,7 +10,7 @@ const hunzweather = 'https://serv.husky.nz/peter-port/Screenshot_20231020_153931
 const gen6 = 'https://serv.husky.nz/peter-port/Screenshot_20231020_185537.png';
 const yoobe = 'https://serv.husky.nz/peter-port/yoobe.png';
 const indeph  = 'https://serv.husky.nz/peter-port/200813-0073.webp';
-const ddo = 'https://serv.husky.nz/peter-port/200813-0073.webp';
+const ddo = 'https://serv.husky.nz/peter-port/Screenshot_20231108_101413.png';
 const Spectrum = 'https://serv.husky.nz/peter-port/Spectrum-website.png';
 
 export const links = [
