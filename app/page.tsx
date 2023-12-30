@@ -8,7 +8,6 @@ import SectionDivider from '@/components/section-divider';
 import Skills from '@/components/skills';
 import Refs from '@/components/refs';
 import Pskills from '@/components/persskills';
-import Youtube from '@/components/yt';
 import Certs from '@/components/certs';
 import Pos from '@/components/os';
 
@@ -23,6 +22,7 @@ const Home = () => {
   useEffect(() => {
     const userAgent = window.navigator.userAgent;
     const mobileKeywords = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
+
 
     if (!mobileKeywords.test(userAgent)) {
       setIsMobile(false);
