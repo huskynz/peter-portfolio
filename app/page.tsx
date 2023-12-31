@@ -35,6 +35,7 @@ const Home = () => {
       {isMobile ? (
         contentLoaded ? (
           <>
+            <link rel="icon" href="https://serv.husky.nz/logo/default.png" sizes="any" />
             <Intro />
             <SectionDivider />
             <About />
@@ -53,6 +54,7 @@ const Home = () => {
         )
       ) : (
         <>
+          <link rel="icon" href="https://serv.husky.nz/logo/default.png" sizes="any" />
           <Intro />
           <SectionDivider />
           <About />
