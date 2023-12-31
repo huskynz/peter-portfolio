@@ -10,6 +10,7 @@ import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import {AiFillYoutube} from "react-icons/ai"
+import { Img } from "@react-email/components";
 
 
 export default function Intro() {
@@ -32,13 +33,11 @@ export default function Intro() {
               duration: 0.2,
             }}
           >
-            <Image
+            <img
               src="https://serv.husky.nz/rollestoncollege/DSC_0321.JPG"
               alt="Peter Gallwas Looking very very consernd"
               width="192"
               height="192"
-              quality="95"
-              priority={true}
               className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
           </motion.div>
