@@ -24,7 +24,12 @@ const ContactForm = () => {
     try {
       const response = await fetch('https://emailapi.hunz.workers.dev', {
         method: 'POST',
-        body: JSON.stringify(formData),
+        body: JSON.stringify({
+          SENDER_EMAIL: formData.senderEmail,
+          RECIPIENT_EMAIL: 'peter@husky.nz', // Replace with your recipient email address
+          // Add other form data as needed for SES
+          MESSAGE: formData.message // Assuming you want to include the message in SES
+        }),
         headers: {
           'Content-Type': 'application/json'
         }
