@@ -1,6 +1,6 @@
-import { useState } from 'react'; // Assuming you're using React
-import { toast } from 'react-toastify'; // Assuming you're using a toast notification library
-import { FaPaperPlane } from 'react-icons/fa'; // Assuming you're using Font Awesome for icons
+import React, { useState, ChangeEvent, FormEvent } from 'react';
+import { toast } from 'react-toastify';
+import { FaPaperPlane } from 'react-icons/fa';
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -9,7 +9,15 @@ const ContactForm = () => {
   });
   const [pending, setPending] = useState(false);
 
-  const handleSubmit = async (event) => {
+  const handleChange = (event: ChangeEvent<HTMLTextAreaElement | HTMLInputElement>) => {
+    const { name, value } = event.target;
+    setFormData((prevFormData) => ({
+      ...prevFormData,
+      [name]: value
+    }));
+  };
+
+  const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     setPending(true);
 
@@ -34,14 +42,6 @@ const ContactForm = () => {
     } finally {
       setPending(false);
     }
-  };
-
-  const handleChange = (event) => {
-    const { name, value } = event.target;
-    setFormData((prevFormData) => ({
-      ...prevFormData,
-      [name]: value
-    }));
   };
 
   return (
