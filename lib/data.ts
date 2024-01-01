@@ -113,6 +113,7 @@ export const skillsData = [
 "ReactJS",
 "TailwindCSS",
 "Adobe Permiere Pro and Photoshop",
+"DaVinci Resolve",
 ] as const;
 
 export const osdata = [
