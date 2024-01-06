@@ -64,7 +64,7 @@ const Home = () => {
           <Pos />
           <Pskills />
           <Refs />
-          <Contact />
+          
         </>
       )}
     </main>
