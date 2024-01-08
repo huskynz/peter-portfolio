@@ -3,15 +3,15 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 
-
-
-const filmsite = 'https://serv.husky.nz/peter-port/Screenshot_20231020_153230.png';
-const hunzweather = 'https://serv.husky.nz/peter-port/Screenshot_20231020_153931.png';
-const gen6 = 'https://serv.husky.nz/peter-port/Screenshot_20231020_185537.png';
-const yoobe = 'https://serv.husky.nz/peter-port/yoobe.png';
-const indeph  = 'https://serv.husky.nz/peter-port/200813-0073.webp';
-const ddo = 'https://serv.husky.nz/peter-port/Screenshot_20231108_101413.png';
-const Spectrum = 'https://serv.husky.nz/peter-port/Spectrum-website.png';
+const filmsite =
+  "https://serv.husky.nz/peter-port/Screenshot_20231020_153230.png";
+const hunzweather =
+  "https://serv.husky.nz/peter-port/Screenshot_20231020_153931.png";
+const gen6 = "https://serv.husky.nz/peter-port/Screenshot_20231020_185537.png";
+const yoobe = "https://serv.husky.nz/peter-port/yoobe.png";
+const indeph = "https://serv.husky.nz/peter-port/200813-0073.webp";
+const ddo = "https://serv.husky.nz/peter-port/Screenshot_20231108_101413.png";
+const Spectrum = "https://serv.husky.nz/peter-port/Spectrum-website.png";
 
 export const links = [
   {
@@ -49,6 +49,14 @@ export const projectsData = [
     link: "https://inde.nz",
     imageUrl: indeph,
   },
+  // {
+  //   title: "Work Experince at Rolleston College",
+  //   description:
+  //     "I did a full year of work experience with Rolleston College's IT guy it tought me alot and helped me with my people skills",
+  //   tags: ["Year 2023"],
+  //   link: "https://rollestoncollege.nz",
+  //   imageUrl: youneedaimange,
+  // },
   {
     title: "Develop a digital media outcome",
     description:
@@ -60,7 +68,7 @@ export const projectsData = [
   {
     title: "Spectrum's Website",
     description:
-      "This is a very fun project to watch grow and I had the fun task of building the Website and running it on cloudflare.",
+      "This is a very fun project to watch grow and I had the fun task of building the Website and running it on cloudflare. I also help with alot of backend stuff.",
     tags: ["Astro", "JSX", "Cloudflare"],
     link: "https://spectrum.liamsherwin.tech",
     imageUrl: Spectrum,
@@ -101,19 +109,19 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-"Azure",
-"AWS",
-"Microsoft 365",
-"Cloudflare",
-"Cloud Networking",
-"Databases",
-"Terrafom",
-"PowerShell",
-"NextJS",
-"ReactJS",
-"TailwindCSS",
-"Adobe Permiere Pro and Photoshop",
-"DaVinci Resolve",
+  "Azure",
+  "AWS",
+  "Microsoft 365",
+  "Cloudflare",
+  "Cloud Networking",
+  "Databases",
+  "Terrafom",
+  "PowerShell",
+  "NextJS",
+  "ReactJS",
+  "TailwindCSS",
+  "Adobe Permiere Pro, Adobe Audition and Photoshop",
+  "DaVinci Resolve",
 ] as const;
 
 export const osdata = [

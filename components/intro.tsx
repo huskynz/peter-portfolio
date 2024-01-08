@@ -35,7 +35,7 @@ export default function Intro() {
           >
             <img
               src="https://serv.husky.nz/rollestoncollege/DSC_0321.JPG"
-              alt="Peter Gallwas Looking very very consernd"
+              alt="Boo"
               width="192"
               height="192"
               className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
