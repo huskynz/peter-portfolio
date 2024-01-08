@@ -24,7 +24,6 @@ const Home = () => {
     const userAgent = window.navigator.userAgent;
     const mobileKeywords = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
 
-
     if (!mobileKeywords.test(userAgent)) {
       setIsMobile(false);
     }
@@ -49,8 +48,7 @@ const Home = () => {
             <Contact />
           </>
         ) : (
-
-          <button onClick={loadContent}>Just to note this site is not yet optimized for mobile keep that in mind click this to load the site</button>
+          <button onClick={loadContent}>Just to note this site is not yet optimized for mobile, However if you understand and agree that it wont be perfect click here and it will take you to the content.</button>
         )
       ) : (
         <>
@@ -64,6 +62,7 @@ const Home = () => {
           <Pos />
           <Pskills />
           <Refs />
+          <Contact />
           
         </>
       )}

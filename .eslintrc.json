@@ -1,6 +1,8 @@
 {
   "extends": "next/core-web-vitals",
   "rules": {
-    "react/no-unescaped-entities": 0
+    "react/no-unescaped-entities": 0,
+    //Disable NextJS Image warning because we load images off Cloudfront]
+    "@next/next/no-img-element": "off"
   }
 }

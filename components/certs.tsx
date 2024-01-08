@@ -20,7 +20,7 @@ export default function Certs() {
     >
     <SectionHeading>My Certifications</SectionHeading>
     <div className="grid grid-cols-2 space-x-1">
-    <a href="https://learn.microsoft.com/api/credentials/share/en-us/peter-gallwas/868D21A0115A6F3B?sharingId=ABDCE9AB036FFAC5"><img src="https://serv.husky.nz/peter-port/microsoft-certified-azure-fundamentals.png" alt="d"></img></a>
+    <a href="https://learn.microsoft.com/api/credentials/share/en-us/peter-gallwas/868D21A0115A6F3B?sharingId=ABDCE9AB036FFAC5"><img src="https://serv.husky.nz/peter-port/microsoft-certified-azure-fundamentals.png" alt="Azure Fundaments Badge"></img></a>
         <a href="https://learn.microsoft.com/api/credentials/share/en-us/peter-gallwas/EF14C73EB99F9662?sharingId=ABDCE9AB036FFAC5"><img src="https://serv.husky.nz/peter-port/microsoft-365-certified-fundamentals.png" alt="d"></img></a>
     </div>
 
