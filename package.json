@@ -1,7 +1,6 @@
-"export": "next export"
 {
-  "name": "portfolio",
-  "version": "0.1.0",
+  "name": "Peter Portfol",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev --turbo",
