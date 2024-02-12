@@ -41,15 +41,10 @@ export default function Contact() {
         <a className="underline" href="tel:+640272500625">
           +640272500625
         </a>{" "}
-        or
-        <p className="line-through"> using the form below</p> Please Read Note Below
       </p>
       <br />
 
-      <h1 className="text-2xl bg-font-bold">
-        There would be a form here however its currently going under a huge
-        rework and will be available soon
-      </h1>
+      <h1 className="text-2xl bg-font-bold"></h1>
       {/* <form
         className="mt-10 flex flex-col dark:text-black"
         action={async (formData) => {
