@@ -65,14 +65,6 @@ export const projectsData = [
     link: "https://huskynz-my.sharepoint.com/:w:/g/personal/peter_husky_nz/EZbs4uc5tRhKvlEcg0QsVQoBjYfiTc0paqqb1F451mHzDw?e=vmRii7",
     imageUrl: ddo,
   },
-  {
-    title: "Spectrum's Website",
-    description:
-      "This is a very fun project to watch grow and I had the fun task of building the Website and running it on cloudflare. I also help with alot of backend stuff.",
-    tags: ["Astro", "JSX", "Cloudflare"],
-    link: "https://spectrum.liamsherwin.tech",
-    imageUrl: Spectrum,
-  },
 
   {
     title: "Yoobee Cyber Security Micro-credential",
