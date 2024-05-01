@@ -44,7 +44,6 @@ const Home = () => {
             <Skills />
             <Pos />
             <Pskills />
-            <Refs />
             <Contact />
           </>
         ) : (
@@ -61,7 +60,6 @@ const Home = () => {
           <Skills />
           <Pos />
           <Pskills />
-          <Refs />
           <Contact />
           
         </>
