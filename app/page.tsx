@@ -47,7 +47,7 @@ const Home = () => {
             <Contact />
           </>
         ) : (
-          <button onClick={loadContent}>Just to note this site is not yet optimized for mobile, However if you understand and agree that it wont be perfect click here and it will take you to the content.</button>
+          <button onClick={loadContent}>This site is depracated and has been moved to the main site at https://www.husky.nz please note that things on this site are NOT up to date but it can usefull to look at</button>
         )
       ) : (
         <>
@@ -61,8 +61,9 @@ const Home = () => {
           <Pos />
           <Pskills />
           <Contact />
-          
-        </>
+          </> : (
+          <button onClick={loadContent}>This site is depracated and has been moved to the main site at https://www.husky.nz please note that things on this site are NOT up to date but it can usefull to look at</button>
+        )
       )}
     </main>
   );
