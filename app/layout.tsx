@@ -11,8 +11,8 @@ import { Toaster } from "react-hot-toast";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Hello im Peter",
-  description: "Welcome to my site",
+  title: "This site is depprecated and has been merged into https://www.husky.nz",
+  description: "This site used to be my portfolio, but I've moved it to https://www.husky.nz",
 };
 
 export default function RootLayout({
