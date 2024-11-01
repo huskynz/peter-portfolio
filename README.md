@@ -1,3 +1,5 @@
+## THIS WEBSITE IS DEPRACATED AND HAS BEEN REPLACED BY <a href="https://hnz.li/ghm2">THE MAIN SITE</a>
+<br/>
 <br/>
 <p align="center">
   <a href="https://github.com/HuskyNZ/peter-v2">

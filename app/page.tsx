@@ -1,67 +1,29 @@
 'use client'
 import { useEffect, useState } from 'react';
-import About from '@/components/about';
-import Contact from '@/components/contact';
-import Intro from '@/components/intro';
-import Projects from '@/components/projects';
-import SectionDivider from '@/components/section-divider';
-import Skills from '@/components/skills';
-import Pskills from '@/components/persskills';
-import Certs from '@/components/certs';
-import Pos from '@/components/os';
-import UserAgentDisplay from '@/components/UserAgentDisplay'
 
 const Home = () => {
-  const [isMobile, setIsMobile] = useState(true); // Default to mobile view initially
-  const [contentLoaded, setContentLoaded] = useState(false);
-
-  const loadContent = () => {
-    setContentLoaded(true);
-  };
+  const [countdown, setCountdown] = useState(10);
 
   useEffect(() => {
-    const userAgent = window.navigator.userAgent;
-    const mobileKeywords = /Windows|Mac OS|Unix|Lunix|Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
+    const countdownInterval = setInterval(() => {
+      setCountdown((prev) => {
+        if (prev <= 1) {
+          window.location.href = 'https://www.husky.nz';
+          clearInterval(countdownInterval);
+          return 0;
+        }
+        return prev - 1;
+      });
+    }, 1000);
 
-    if (!mobileKeywords.test(userAgent)) {
-      setIsMobile(false);
-    }
+    return () => clearInterval(countdownInterval);
   }, []);
 
   return (
-    <main className="flex flex-col items-center px-4">
-      {isMobile ? (
-        contentLoaded ? (
-          <>
-            <link rel="icon" href="https://serv.husky.nz/logo/default.png" sizes="any" />
-            <Intro />
-            <SectionDivider />
-            <About />
-            <UserAgentDisplay />
-            <Certs />
-            <Projects />
-            <Skills />
-            <Pos />
-            <Pskills />
-            <Contact />
-          </>
-        ) : (
-          <button onClick={loadContent}>This site is depracated and has been moved to the main site at https://www.husky.nz please note that things on this site are NOT up to date but it can usefull to look at</button>
-        )
-      ) : (
-        <>
-          <link rel="icon" href="https://serv.husky.nz/logo/default.png" sizes="any" />
-          <Intro />
-          <SectionDivider />
-          <About />
-          <Certs />
-          <Projects />
-          <Skills />
-          <Pos />
-          <Pskills />
-          <Contact />
-          </>
-      )}
+    <main className="flex flex-col items-center justify-start h-screen text-center px-4 pt-20"> {/* Added pt-20 */}
+      <img src="https://serv.husky.nz/logo/default.png" alt="HuskyNZ Logo" className="mb-4 w-32 h-auto" />
+      <h1>This website has been deprecated and merged into <a href="https://www.husky.nz" className="text-blue-500 underline">https://www.husky.nz</a></h1>
+      <p>Please wait while you are redirected in {countdown} seconds...</p>
     </main>
   );
 };
